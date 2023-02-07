@@ -310,6 +310,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  section .container-fluid .sec-h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.568);
+  }
   section .container-fluid .card {
     width: 20rem;
     height: 800px;
@@ -343,6 +350,10 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+  }
+  section .container-fluid .sec-h1 {
+    left: 35%;
+    top: 60%;
   }
   section .container-fluid .card {
     width: 15rem;
@@ -379,6 +390,9 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+  }
+  section .container-fluid .sec-h1 {
+    left: 15%;
   }
   section .container-fluid .card {
     width: 15rem;

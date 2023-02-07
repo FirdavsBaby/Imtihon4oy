@@ -88,7 +88,6 @@ async function getData(search, startIndex, limit) {
       let card = e.target.parentElement.parentElement.parentElement;
       let cardID = card.getAttribute("data-id");
       let findedCard = data.find((b) => b.volumeInfo.title == cardID);
-
       bookMarkProducts.push(findedCard);
       localStorage.setItem("bookMark", JSON.stringify(bookMarkProducts));
       bookMark.innerHTML = "";

@@ -317,6 +317,13 @@
       justify-content: center;
       justify-content: space-between;
       flex-wrap: wrap;
+      .sec-h1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 80px;
+        color: rgba(128, 128, 128, 0.568);
+      }
       .card {
         width: 20rem;
         height: 800px;
@@ -356,6 +363,10 @@
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
+      .sec-h1 {
+        left: 35%;
+        top: 60%;
+      }
       .card {
         width: 15rem;
         .card-body {
@@ -395,6 +406,9 @@
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
+      .sec-h1 {
+        left: 15%;
+      }
       .card {
         width: 15rem;
         height: 650px;
