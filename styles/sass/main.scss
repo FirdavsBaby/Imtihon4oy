@@ -1,0 +1,72 @@
+.inp {
+  background-color: inherit;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  i {
+    width: 5%;
+  }
+  input {
+    width: 94%;
+    background-color: inherit;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-color: black;
+    color: white;
+  }
+  ::-webkit-input-placeholder {
+    color: white;
+  }
+}
+#login-page {
+  background: url("http://ashaval.com/wp-content/uploads/2019/05/Library.jpg");
+}
+#login-form {
+  background-color: rgba(0, 0, 0, 0.568);
+}
+#logo {
+  width: 300px;
+}
+
+@media (max-width: 500px) {
+  section.container {
+    width: 100%;
+    font-size: 17px;
+    .inp {
+      width: 100%;
+      font-size: 10px;
+      input {
+        font-size: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  nav .container-fluid {
+    width: 500px;
+    form {
+      input {
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 550px) {
+  nav .container-fluid {
+    width: 100%;
+    form {
+      input {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+
+
